@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(180deg, #de2a2a -30.08%, #3770f5 100%);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    position: relative;
+}
+.container{
+    width: 450px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 2px 93px -19px #000;
+    height: 85%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+h1{
+    font-size: 36px;
+    color: #cd0303;
+    margin: 30px 45px;
+}
+.list{
+    padding: 0 40px;
+    position: relative;
+}
+input{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 7px 33px -4px #000;
+    border-radius: 34px;
+    border: none;
+    outline: none;
+    padding: 20px 25px;
+}
+.list input::placeholder{
+    font-size: 16px;
+    color: #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input.icon{
+    font-size: 35px;
+    color: white;
+    background-color: #5c885c;
+    width: auto;
+    border-radius: 50%;
+    padding: 0 12px;
+    position: relative;
+    right: -42%;
+    top: -50px;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color: #fff;
+    color: #5cbb5c;
+    border-color: #5cbb5c;
+
+}
+h4{
+    font-size: 24px;
+    color: #474747;
+    margin: 20px 40px;
+}
+.list ul.task_list{
+    list-style: none;
+    text-align: left;
+}
+.list ul.task_list li{
+    background-color: #fff;
+    font-size: 22px;
+    box-shadow: 0px 7px 33px -4px #000;
+    border-radius: 34px;
+    padding: 20px 25px;
+    margin-bottom: 17px;
+    font-size: 16px;
+    color: #aaa;
+    position: relative;
+}
+.list ul.task_list li span{
+    position: absolute;
+    right: 9px;
+    top: 6px;
+    padding: 9px 16px;
+    border-radius: 50%;
+    box-shadow: 0px 7px 33px -4px #000;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.list ul.task_list li span:hover{
+    color: #fff;
+    background-color: #f00;
+}
+
+
+
+
+
